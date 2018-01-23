@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Login/Signup</title>
+<style>
+	div {
+    width: 450px;
+	padding:25px;
+    border: 5px solid gray;
+    margin-top: 50;
+	margin-left: 420;
+	}
+	button {
+	background-color: #4CAF50;
+    color: white;
+	border: none;
+    cursor: pointer;
+	margin-left: 200;
+	padding :9px;
+	}
+	button1 {
+	background-color: #4CAF50;
+    color: white;
+	border: none;
+    cursor: pointer;
+	margin-left: 10;
+	padding :9px;
+	}
+	
+</style>
+</head>
+<body>
+	<font size=8 color= ><center>Signup/Login</center></font>
+	<div>
+		<font size=7>Login</font>
+		<hr>
+		<form action="sample.php" method="post">
+		<label>Email_Address : </label> 
+		<input type="Text" placeholder="Enter Email" name="Email" required ><br><br>
+		<label>Password : </label> 
+		<input type="Password" placeholder="Enter Password." name="Password" required >
+		<br><br>
+		<input type="submit" value="Submit">
+        </form>
+        <hr><br>
+        Do not have an account<button1 type="button" onclick="window.location.href='../login/signup.html'" >Signup</button1>
+	</div>
+	
+        </body>
+</html>
