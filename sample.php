@@ -1,19 +1,19 @@
 <?php
 
-//MySQLi connection
+//Code to Connect MySQLi connection
 $con =mysqli_connect('127.0.0.1','root','','a');
 
-// Check connection for any errors
+//Code to Check Check connection for any errors
 if (mysqli_connect_errno()){
 echo "Failed to connect to MySQL: ".mysqli_connect_error();
 }
 
 
-//starting our session to preserve our login
+//Code For starting our session to preserve our login
 session_start();
 
 
-//check whether data with the name username has been submitted
+//Code to check whether data with the name username has been submitted
 if (isset($_POST['Email'])) {
 
 	//variables to hold our submitted data with post
